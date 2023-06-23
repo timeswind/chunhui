@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-06-23T12:05:43.129Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" version="21.5.0" etag="I37dMoLrRDJp8MdvmAC5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-23T12:10:24.484Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="05dj_6wMORUqWWjYIwSq" version="21.5.0" type="github">
   <diagram name="第 1 页" id="_LR95QQ1jTDVOQ-aUPyz">
-    <mxGraphModel>
+    <mxGraphModel dx="1194" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_6LW5tscfxdfs_7R7L20-2" value="订单流程" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;" vertex="1" parent="1">
+          <mxGeometry x="34" y="40" width="796" height="550" as="geometry">
+            <mxRectangle x="220" y="40" width="40" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_6LW5tscfxdfs_7R7L20-3" value="新品试样&#xa;（周期4个月）" style="swimlane;startSize=60;align=center;" vertex="1" parent="_6LW5tscfxdfs_7R7L20-2">
+          <mxGeometry x="20" width="536" height="550" as="geometry">
+            <mxRectangle x="20" width="40" height="480" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_6LW5tscfxdfs_7R7L20-7" value="系统" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="_6LW5tscfxdfs_7R7L20-3">
+          <mxGeometry y="160" width="536" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="_6LW5tscfxdfs_7R7L20-8" value="好会计" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="_6LW5tscfxdfs_7R7L20-7">
+          <mxGeometry y="20" width="536" height="120" as="geometry">
+            <mxRectangle y="20" width="536" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_6LW5tscfxdfs_7R7L20-9" value="明道云" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="_6LW5tscfxdfs_7R7L20-7">
+          <mxGeometry y="140" width="536" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_6LW5tscfxdfs_7R7L20-10" value="黑湖小工单" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="_6LW5tscfxdfs_7R7L20-7">
+          <mxGeometry y="260" width="536" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_6LW5tscfxdfs_7R7L20-4" value="正式订单" style="swimlane;startSize=60;" vertex="1" parent="_6LW5tscfxdfs_7R7L20-2">
+          <mxGeometry x="556" width="120" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="_6LW5tscfxdfs_7R7L20-5" value="生产与交付" style="swimlane;startSize=60;" vertex="1" parent="_6LW5tscfxdfs_7R7L20-2">
+          <mxGeometry x="676" width="120" height="550" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
